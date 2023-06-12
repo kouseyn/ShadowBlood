@@ -1,0 +1,35 @@
+#homeScreen {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: sr;
+}
+
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#buttons a {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+#buttons img {
+  max-width: 100%;
+  border-radius: 40px;
+}
+
+#buttons a:first-child {
+  justify-content: flex-end;
+}
+
+#buttons a:last-child {
+  justify-content: flex-start;
+}

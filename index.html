@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Start</title>
+</head>
+<body>
+    <video autoplay loop muted style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+      <source src="start.mp4" type="video/mp4">
+      
+    </video>
+   
+
+
+  <script>
+    document.addEventListener('keydown', function(event) {
+      if (event.code === 'Space') {
+        window.location.href = '../home/Home.html';
+      }
+    });
+  </script>
+</body>
+</html>
